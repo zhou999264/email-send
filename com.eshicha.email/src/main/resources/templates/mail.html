@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>网站咨询邮件</title>
+    <style>
+        body {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #main {
+            text-align: left;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <h3><span th:text="${project}"></span> -By<h2>
+    <h5><div>姓名：<span th:text="${userName}"></span><div><h5>
+    <h5><div>电话：<span th:text="${phone}"></span><div><h5>
+    <h5><div>标题：<span th:text="${title}"></span></div></h5>
+    <h5><div>内容：<span th:text="${contet}"></span></div></h5>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3146060 */
+  src: url('iconfont.woff2?t=1642399318007') format('woff2'),
+       url('iconfont.woff?t=1642399318007') format('woff'),
+       url('iconfont.ttf?t=1642399318007') format('truetype');
+}
+
+.icon {
+  height: 38px;
+  line-height: 38px;
+  -webkit-transition: font-size 0.25s linear, width 0.25s linear;
+  -moz-transition: font-size 0.25s linear, width 0.25s linear;
+  transition: font-size 0.25s linear, width 0.25s linear;
+}
+
+
+.icon:hover {
+  font-size: 35px;
+  background-color:var(--b-alpha-10);
+  color:var(--txt-b-pure);
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 25px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.white{
+  color: #fff;
+}
+
+.icon-douyintexiao:before {
+  content: "\e682";
+}
+
+.icon-qq:before {
+  content: "\e73a";
+}
+
+.icon-weibo:before {
+  content: "\e7d5";
+}
+
+.icon-weixin:before {
+  content: "\e7d6";
+}
+
+.icon-whatsapp:before {
+  content: "\e7d7";
+}
+
+.icon-zhihu:before {
+  content: "\e7e9";
+}
+
